@@ -57,3 +57,11 @@ A simple RESTful API for managing store inventory — including **Products**, **
 ###➕ Create Supplier
 'POST /api/suppliers'
 
+## 🗝️ Environment Variables (.env)
+
+| Key         | Description                     | Example Value (Redacted)                                  |
+|-------------|----------------------------------|-----------------------------------------------------------|
+| PORT        | Server port number              | 4000                                                      |
+| MONGO_URI   | MongoDB Atlas connection string | mongodb+srv://<username>:<password>@inventory.xuwjjj7...  |
+
+
