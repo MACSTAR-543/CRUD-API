@@ -4,7 +4,7 @@
 A simple RESTful API for managing store inventory — including **Products**, **Suppliers**, and **Orders** — built with **Node.js**, **Express**, and **MongoDB Atlas**.  
 
 ## 🌐 Base
-https://crud-api-ecft.onrender.com
+http://localhost:3000
 
 
 ## 📦 Endpoints
