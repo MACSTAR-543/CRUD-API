@@ -16,15 +16,15 @@ A simple RESTful API for managing store inventory — including **Products**, **
 | GET    | /api/products           | Get all products         | 200 OK        |
 | GET    | /api/products/:id       | Get a product by ID      | 200 / 404     |
 | POST   | /api/products           | Create new product       | 201 Created   |
-| PUT    | /api/products/:id       | Update a product by ID   | 200 OK        |
+| PUT    | /api/products/:id       | Update a product by ID   | 400/200 OK        |
 | DELETE | /api/products/:id       | Delete a product by ID   | 200 / 404     |
 
 ### 🏢 Suppliers
 
-| Method | Endpoint               | Description                | Sample Status |
-|--------|-------------------------|-----------------------------|---------------|
+| Method | Endpoint                | Description                | Sample Status |
+|--------|----------------------- -|----------------------------|---------------|
 | GET    | /api/suppliers          | Get all suppliers          | 200 OK        |
-| GET    | /api/suppliers/:id      | Get a supplier by ID       | 200 / 404     |
+| GET    | /api/suppliers/:id      | Get a supplier by ID       | 200           |
 | POST   | /api/suppliers          | Create new supplier        | 201 Created   |
 | PUT    | /api/suppliers/:id      | Update a supplier by ID    | 200 OK        |
 | DELETE | /api/suppliers/:id      | Delete a supplier by ID    | 200 / 404     |
@@ -54,14 +54,19 @@ A simple RESTful API for managing store inventory — including **Products**, **
   "stock": 20
 }
 
-###➕ Create Supplier
+
+### ➕ Create Supplier
 'POST /api/suppliers'
 
-## 🗝️ Environment Variables (.env)
 
-| Key         | Description                     | Example Value (Redacted)                                  |
-|-------------|----------------------------------|-----------------------------------------------------------|
-| PORT        | Server port number              | 4000                                                      |
+### ➕ Create Supplier
+
+---
+ 🗝️ Environment Variables (.env)
+
+| Key         | Description                     |                       Redacted                            |
+|-------------|---------------------------------|-----------------------------------------------------------|
+| PORT        | Server port number              |              3000                                         |
 | MONGO_URI   | MongoDB Atlas connection string | mongodb+srv://<username>:<password>@inventory.xuwjjj7...  |
 
 
