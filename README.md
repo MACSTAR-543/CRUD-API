@@ -89,26 +89,12 @@ http://localhost:3000
 ```json
 
 {
-    "items": [
-        {
-            "productId": "68f23482e8acaed8e337ac06",
-            "qty": 3,
-            "price": 10.5,
-            "_id": "68f2ec97b97576d2e865a99f"
-        },
-        {
-            "productId": "68f1b7ed0f3c8de9ab8a8182",
-            "qty": 1,
-            "price": 50,
-            "_id": "68f2ec97b97576d2e865a9a0"
-        }
-    ],
-    "status": "pending",
-    "_id": "68f2ec97b97576d2e865a99e",
-    "createdAt": "2025-10-18T01:25:43.765Z",
-    "updatedAt": "2025-10-18T01:25:43.765Z",
-    "__v": 0
+  "productId": "6711a3f25cfd14d3e1c2f9c1",
+  "quantity": 5,
+  "totalPrice": 2500,
+  "status": "cancelled"
 }
+
 
 
 ---
