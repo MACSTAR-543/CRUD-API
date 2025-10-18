@@ -65,43 +65,49 @@ http://localhost:3000
 
 ```json
 {
-  "sku": "BK-001",
-  "name": "Book",
-  "price": 500,
-  "stock": 20
+
+  "name": "Shirt",
+  "sku": "CLO-005",
+  "price": 499
 }
 
 
 ### ➕ Create Supplier
-```POST /api/suppliers```
+`POST /api/suppliers`
 
 ```json
 
 {
-        "name": "ABC Supplies",
-        "contact": "0917123456"
-
+ "name": "ABC Supplies",
+ "contact": "0917123456"
 }
 
+
 ### ➕ Create Order
-```POST /api/suppliers```
+`POST /api/orders`
 
 ```json
 
 {
-  "supplier": "68f1b7ed0f3c8de9ab8a8179",
-  "items": [
-    {
-      "productId": "68f23482e8acaed8e337ac06",
-      "qty": 3,
-      "price": 10.5
-    },
-    {
-      "productId": "68f1b7ed0f3c8de9ab8a8182",
-      "qty": 1,
-      "price": 50
-    }
-  ]
+    "items": [
+        {
+            "productId": "68f23482e8acaed8e337ac06",
+            "qty": 3,
+            "price": 10.5,
+            "_id": "68f2ec97b97576d2e865a99f"
+        },
+        {
+            "productId": "68f1b7ed0f3c8de9ab8a8182",
+            "qty": 1,
+            "price": 50,
+            "_id": "68f2ec97b97576d2e865a9a0"
+        }
+    ],
+    "status": "pending",
+    "_id": "68f2ec97b97576d2e865a99e",
+    "createdAt": "2025-10-18T01:25:43.765Z",
+    "updatedAt": "2025-10-18T01:25:43.765Z",
+    "__v": 0
 }
 
 
@@ -112,6 +118,6 @@ http://localhost:3000
 | Key         | Description                     |                       Redacted                            |
 |-------------|---------------------------------|-----------------------------------------------------------|
 | PORT        | Server port number              |              3000                                         |
-| MONGO_URI   | MongoDB Atlas connection string | mongodb+srv://<username>:<password>@inventory.xuwjjj7...  |
+| MONGO_URI   | MongoDB Atlas connection string |mongodb+srv://miacabanza0453_db_user:******@inventory.xuwjjj7.mongodb.net/?retryWrites=true&w=majority&appName=inventory  |
 
 
