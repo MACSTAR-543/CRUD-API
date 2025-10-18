@@ -1,11 +1,15 @@
 # 🏪 Inventory / Store CRUD API
 
-A simple RESTful API for managing store inventory — including **Products**, **Suppliers**, and **Orders** — built with **Node.js**, **Express**, and **MongoDB Atlas**.
+A simple RESTful API for managing store inventory — including **Products**, **Suppliers**, and **Orders**.
 
 ---
 
 ## 🌐 Base URL
+https://crud-api-4-cncd.onrender.com
+
+## Local base URL
 http://localhost:3000
+
 ---
 
 ## 📘 Tech Stack
@@ -71,6 +75,7 @@ http://localhost:3000
   "price": 499
 }
 
+---
 
 ### ➕ Create Supplier
 `POST /api/suppliers`
@@ -82,7 +87,7 @@ http://localhost:3000
  "contact": "0917123456"
 }
 
-
+---
 ### ➕ Create Order
 `POST /api/orders`
 
