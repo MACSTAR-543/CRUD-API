@@ -95,9 +95,9 @@ http://localhost:3000
 
 {
   "productId": "6711a3f25cfd14d3e1c2f9c1",
-  "quantity": 5,
-  "totalPrice": 2500,
-  "status": "cancelled"
+  "qty": 5,
+  "price": 2500,
+  "status": "processing"
 }
 
 
