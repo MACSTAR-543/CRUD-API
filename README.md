@@ -28,7 +28,7 @@ http://localhost:3000
 
 ### 🧾 Products
 
-| Method | Endpoint              | Description              | Sample Status |
+| Method | Endpoint              | Description              | Status           |
 |--------|------------------------|---------------------------|----------------|
 | GET    | `/api/products`        | Get all products          | 200 OK         |
 | GET    | `/api/products/:id`    | Get a product by ID       | 200 / 404      |
@@ -40,7 +40,7 @@ http://localhost:3000
 
 ### 🏢 Suppliers
 
-| Method | Endpoint              | Description              | Sample Status |
+| Method | Endpoint              | Description              | Status           |
 |--------|------------------------|---------------------------|----------------|
 | GET    | `/api/suppliers`       | Get all suppliers         | 200 OK         |
 | GET    | `/api/suppliers/:id`   | Get a supplier by ID      | 200 / 404      |
@@ -52,7 +52,7 @@ http://localhost:3000
 
 ### 📦 Orders
 
-| Method | Endpoint              | Description              | Sample Status |
+| Method | Endpoint              | Description              |  Status          |
 |--------|------------------------|---------------------------|----------------|
 | GET    | `/api/orders`          | Get all orders            | 200 OK         |
 | GET    | `/api/orders/:id`      | Get an order by ID        | 200 / 404      |
