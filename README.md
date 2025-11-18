@@ -104,11 +104,3 @@ http://localhost:3000
 
 ---
 
-### 🗝️ Environment Variables (.env)
-
-| Key         | Description                     |                       Redacted                            |
-|-------------|---------------------------------|-----------------------------------------------------------|
-| PORT        | Server port number              |              3000                                         |
-| MONGO_URI   | MongoDB Atlas connection string |mongodb+srv://miacabanza0453_db_user:******@inventory.xuwjjj7.mongodb.net/?retryWrites=true&w=majority&appName=inventory  |
-
-
